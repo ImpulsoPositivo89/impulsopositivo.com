@@ -1,0 +1,77 @@
+<!-- ebooks.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impulso Positivo - eBooks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+</head>
+<body>
+    <!-- Barra de Navegación Lateral -->
+    <div class="sidebar" id="sidebar">
+        <h1>Impulso Positivo</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="ebooks.html">eBooks</a></li>
+            <li><a href="generadores.html">Generadores</a></li>
+            <li><a href="about.html">Sobre Mí</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="cart.html">🛒 Carrito (<span id="cart-count">0</span>)</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenido Principal -->
+    <main>
+        <header>
+            <div class="container">
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="ebooks-section">
+            <div class="container">
+                <h2>Mis eBooks</h2>
+                <div class="ebooks-grid">
+                    <!-- eBook 1 -->
+                    <div class="ebook-item">
+                        <img src="assets/ebooks/ebook1.jpg" alt="Título del eBook 1">
+                        <h3>Generación de Cuentas Steam , Spotify y crunchyroll.</h3>
+                        <p>En este libro explico de manera detallada como generar las cuentas del primer generador y los ayudo a venderlas (5$).</p>
+                        <button class="add-to-cart-button" data-title="Título del eBook 1" data-file="ebook1.pdf" data-type="ebook">Agregar al Carrito</button>
+                    </div>
+                    <!-- eBook 2 -->
+                    <div class="ebook-item">
+                        <img src="assets/ebooks/ebook2.jpg" alt="Título del eBook 2">
+                        <h3>Generacion de cuentas de chat gpt y minecraft java.</h3>
+                        <p>En este libro explico de manera detallada como generar las cuentas del segundo generador y los ayudo a venderlas (5$).</p>
+                        <button class="add-to-cart-button" data-title="Título del eBook 2" data-file="ebook2.pdf" data-type="ebook">Agregar al Carrito</button>
+                    </div>
+                    <!-- Añade más eBooks según sea necesario -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Impulso Positivo. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="https://www.youtube.com/tu-canal" target="_blank">YouTube</a>
+                <!-- Añade más enlaces a tus redes sociales si lo deseas -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Incluir los scripts al final del body -->
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
